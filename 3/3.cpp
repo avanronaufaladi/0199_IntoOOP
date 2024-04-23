@@ -20,4 +20,8 @@ public:
     }
 
     
-  
+    float getPanjang() const {
+        return panjang;
+    }
+
+   
