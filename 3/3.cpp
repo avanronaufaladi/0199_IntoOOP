@@ -15,4 +15,9 @@ public:
         this->panjang = panjang;
     }
 
-   
+    void setLebar(float lebar) {
+        this->lebar = lebar;
+    }
+
+    
+  
