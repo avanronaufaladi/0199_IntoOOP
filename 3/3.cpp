@@ -3,14 +3,14 @@ using namespace std;
 
 class BangunDatar {
 private:
-    
+
     float panjang, lebar;
 
 public:
-    
+
     BangunDatar() {}
 
-    
+
     void setPanjang(float panjang) {
         this->panjang = panjang;
     }
@@ -19,7 +19,7 @@ public:
         this->lebar = lebar;
     }
 
-    
+
     float getPanjang() const {
         return panjang;
     }
@@ -28,12 +28,12 @@ public:
         return lebar;
     }
 
-    
+
     float hitungLuas() const {
         return panjang * lebar;
     }
 
-    
+
     void display() const {
         cout << "Panjang: " << panjang << endl;
         cout << "Lebar: " << lebar << endl;
@@ -44,11 +44,11 @@ public:
 int main() {
     BangunDatar bangunDatar;
 
-    
+
     bangunDatar.setPanjang(10);
     bangunDatar.setLebar(5);
 
-    
+
     bangunDatar.display();
 
     return 0;
