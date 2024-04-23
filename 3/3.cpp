@@ -29,4 +29,10 @@ public:
     }
 
     
+    float hitungLuas() const {
+        return panjang * lebar;
+    }
+
+    
  
+}
