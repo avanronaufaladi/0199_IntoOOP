@@ -24,4 +24,9 @@ public:
         return panjang;
     }
 
-   
+    float getLebar() const {
+        return lebar;
+    }
+
+    
+ 
