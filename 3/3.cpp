@@ -41,3 +41,15 @@ public:
     }
 };
 
+int main() {
+    BangunDatar bangunDatar;
+
+    
+    bangunDatar.setPanjang(10);
+    bangunDatar.setLebar(5);
+
+    
+    bangunDatar.display();
+
+    return 0;
+}
